@@ -1,0 +1,131 @@
+body{
+	font-family: 'Microsoft YaHei';
+	background: #dedede;
+}
+header{
+	height: 5em;
+	background: #333;
+}
+header h1 img{
+	padding-left: 1em;
+	height: 4rem;
+}
+header nav{
+	position: absolute;
+	top: 2.5em;
+	right: 5em;
+}
+header nav ul li{
+	display: inline-block;
+	width: 5rem;
+}
+header ul li a{
+	text-decoration: none;
+	color: white;
+}
+head ul li a:hover{
+	text-decoration: underline;
+	border-radius: 3px;
+	color:grey;
+}
+/*main*/
+article,aside{
+	display: block;
+	margin: 1em;
+	padding: 1em;
+	background-color: white;
+	box-shadow: 1px 1px 2px 1px #848484;
+}
+article h2{
+	padding: 10px 0;
+	color: #808080;
+	font-size: 16px;
+}
+.author,.eTime{
+	color: #808080;
+	font-size: 0.8em;
+}
+article p{
+	text-indent: 2em;
+}
+article img{
+	padding:1em 0;
+}
+article ul li{
+	list-style-type: none;
+}
+figure figcaption{
+	text-align: center;
+	font-size: 0.8em;
+	margin: 0.3em;
+	width: 10em;
+}
+figure img{
+	width:110px;
+	padding: 0.3em;
+	border: 5px solid #ffffff;
+}
+article ol{
+	margin: 1em 3em;
+}
+article table{
+	width: 100%;
+	border-collapse: collapse;
+}
+table thead{
+	color: white;
+	background: #333;
+}
+table tbody th td{
+	border:1px solid #ccc;
+}
+table .bottom-table{
+	background: #ccc;
+}
+
+/*aside*/
+aside h4{
+	height: 3em;
+	line-height: 3em;
+	padding-left: 1em;
+	border-left:3px solid #ccc;
+}
+aside form div{
+	font-size:0.8em;
+	margin: 1em 0;
+}
+aside form div .tips{
+	/*float:letf;*/
+	display: inline-block;
+	text-align: right;
+	width: 35%;
+	padding-right: 1em;
+}
+aside form div p{
+	margin-left: 35%;
+	padding-left: 1em;
+	font-size: 0.6em;
+	color:#aaa;
+}
+aside textarea{
+	width: 50%;
+	height: 5em;
+}
+aside form div .submitButton{
+	width: 100%;
+	height: 3em;
+	border-radius: 0.9em;
+	box-shadow: 2px 2px 2px #888888;
+	background: #128fdc;
+	color: white;
+	font-size: 1.2em;
+	border: none;
+}
+footer{
+	width: 100%;
+	height: 3em;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 3em;
+}
